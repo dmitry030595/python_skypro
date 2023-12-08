@@ -1,0 +1,7 @@
+Локатор кнопки Войти - //div[@data-widget='profileMenuAnonymous']
+Локатор кнопки Заказы - //div[@data-widget='orderInfo']
+Локатор ссылки OZON Job (в футере) - //a[@href='https://job.ozon.ru/?perehod=footer']
+Локатор выбора валюты (верхний левый угол страницы) - //div[@data-widget='selectedCurrency']
+Локатор выпадашки Везде (в поисковой строке) - //span[@title='Везде']
+
+P.S.: не указано, в какой форме нужно писать локаторы, поэтому так решил)
