@@ -11,7 +11,7 @@ driver.maximize_window()
 form = FormPage(driver)
 
 
-def test_write_to_form():
+def test_check_color():
     form.write_first_name
     form.write_last_name
     form.write_address
@@ -23,8 +23,6 @@ def test_write_to_form():
     form.write_company
     form.click_submit_button()
 
-
-def test_check_color():
     assert form.get_background_color(form.zip_code_color) == 'rgba(248, 215, 218, 1)', ('Поле zip_code не подсвечено '
                                                                                         'красным')
     assert form.get_background_color(form.first_name_color) == 'rgba(209, 231, 221, 1)', ('Поле first_name не '
